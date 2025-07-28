@@ -1,30 +1,35 @@
-import { MdOutlineArrowDropDown } from "react-icons/md";
+"use client";
+
+import { AccordionContent } from "@/components/ui/accordion"
+import { Tecnologia, TecnologiaProps } from "./Tecnologia";
 
 interface Props {
-    area: string;
-    backgroundUrl: string;
-    tecnologias: string[];
+    tecnologias: TecnologiaProps[];
 }
 
-export const SkillCard = ({ area, tecnologias, backgroundUrl }: Props) => {
+export const SkillCard = ({ tecnologias }: Props) => {
+
     return (
-        <div
-            style={{ backgroundImage: `url(${backgroundUrl})` }}
-            className="bg-cover bg-no-repeat bg-center flex flex-col items-center justify-center w-full h-56 border border-detalhes rounded-2xl shadow-2xl p-4 hover:opacity-80 cursor-pointer transition-transform">
-            <h3 className="text-detalhes  font-black text-5xl text-center uppercase flex flex-col  items-center">
-                <span className="text-shadow-[2px_2px_4px_rgba(0,0,0,0.5)]">{area} </span>
-                <MdOutlineArrowDropDown className="text-6xl text-detalhes text-center" />
-            </h3>
+        <>
+            <AccordionContent className="relative p-4">
+                <div className="absolute bg-destaquePrincipal opacity-50 top-0 left-0 right-0 bottom-0 z-0 rounded-2xl">
 
-            <ul className="hidden">
-                {tecnologias.map((item, index) => (
-                    <li className="text-xl font-bold text-white" key={index}>
-                        {item}
-                    </li>
-                ))}
-            </ul>
+                </div>
+                <ul className="flex flex-col gap-4 z-10 relative">
+                    {tecnologias.map((item, index) => (
+                        <li className=""
+                            style={{ textShadow: "2px 2px 10px rgba(0, 0, 0, 0.9)" }}
+                            key={index}>
+                            <Tecnologia
+                                name={item.name}
+                                icon={item.icon}
+                            />
+                        </li>
+                    ))}
+                </ul>
+            </AccordionContent>
 
 
-        </div>
+        </>
     );
 };

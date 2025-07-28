@@ -1,14 +1,21 @@
-import { About } from "./about/About";
+"use cliet"
+
+import { HeroSection } from "./HeroSection/HeroSection";
 import { Nav } from "./components/Nav";
-import { Skills } from "./skills/Skills";
+import { Projects } from "./projects/page";
+import { About } from "./AboutMe/About";
+import { StarBackground } from "./components/stars";
 
 export default function Home() {
   return (
-    <div className="overflow-hidden bg-linear-to-b from-black  via-background to-destaqueSecundario flex flex-col ">
-      <Nav />
-      <About />
-      <Skills />
+    <div className="relative overflow-hidden bg-gradient-to-b from-black via-background to-destaqueSecundario flex flex-col min-h-screen">
 
+      <StarBackground />
+
+      <Nav />
+      <HeroSection />
+      <About />
+      <Projects />
     </div>
   );
 }

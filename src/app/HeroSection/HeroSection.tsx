@@ -10,23 +10,23 @@ import { motion } from "framer-motion";
 
 
 
-export function About() {
+export function HeroSection() {
     return (
 
-        <section id="about" className="h-full w-ful bg-cover max-w-[1080px] px-4 mx-auto justify-center items-center">
+        <section id="HeroSection" className=" h-full w-ful bg-cover max-w-[1080px] px-4 mx-auto justify-center items-center">
 
             <div className="flex flex-col md:flex-row gap-20 justify-center items-center mx-auto pt-20">
 
                 <div className="text-white flex-1 gap-4 flex flex-col text-2xl">
 
 
-                    <span className=" uppercase flex gap-4 bg-gradient-to-bl from-destaquePrincipal to-acao text-transparent bg-clip-text font-extrabold bg-line text-shadow-2xs text-4xl md:text-6xl">
+                    <span className=" uppercase flex gap-4 bg-gradient-to-bl from-destaquePrincipal to-acao text-transparent bg-clip-text font-extrabold bg-line text-shadow-2xs text-3xl md:text-4xl">
                         <h1 className="text-white">I'm</h1>
                         <TypeAnimation
                             sequence={[
                                 "Alberto Paim",
                                 1000,
-                                "FullStack!",
+                                "FullStack",
                                 1000,
                             ]}
                             wrapper="span"
@@ -37,9 +37,8 @@ export function About() {
 
                     <p className="text-xl">
 
-                        I'm a Backend Developer passionate about building robust, secure, and scalable APIs using Java and Spring Boot.
-
-                        I also explore the Web3 ecosystem, where I develop decentralized applications and smart contracts with Solidity.</p>
+                        I'm a Backend Developer focused on building secure and scalable APIs with Java and Spring Boot. I also develop Web3 apps and smart contracts using Solidity.
+                    </p>
 
                     <div className="flex gap-4">
                         <ButtonPrincipal
