@@ -1,14 +1,14 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
-@custom-variant dark (&:is(.dark *));
-
 @theme {
   --color-destaquePrincipal: #1B6CA8;
   --color-destaqueSecundario: #4FC3F7;
   --color-textoPrimario: #B0BEC5;
   --color-acao: #00BCD4;
   --color-detalhes: #ECEFF1;
+  --font-texto: "geistSans";
+  --font-headline: "exo_2"
 }
 
 @theme inline {
@@ -124,6 +124,6 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-gradient-to-b from-black via-background to-destaquePrincipal text-foreground;
   }
 }

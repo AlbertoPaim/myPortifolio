@@ -19,9 +19,8 @@ export function HeroSection() {
 
                 <div className="text-white flex-1 gap-4 flex flex-col text-2xl">
 
-
-                    <span className=" uppercase flex gap-4 bg-gradient-to-bl from-destaquePrincipal to-acao text-transparent bg-clip-text font-extrabold bg-line text-shadow-2xs text-3xl md:text-4xl">
-                        <h1 className="text-white">I'm</h1>
+                    <span className=" uppercase flex gap-4 bg-gradient-to-bl from-destaquePrincipal to-acao text-transparent bg-clip-text font-extrabold bg-line text-shadow-2xs text-4xl md:text-5xl lg:text-6xl">
+                        <h1 className="text-white text-4xl md:text-5xl lg:text-6xl">I'm</h1>
                         <TypeAnimation
                             sequence={[
                                 "Alberto Paim",
@@ -61,8 +60,8 @@ export function HeroSection() {
                     }}
                 >
                     <Image
-                        className="rotate-10 z-0"
-                        width={300}
+                        className="rotate-10 z-0 w-60 md:w-40 lg:w-60"
+                        width={200}
                         height={0}
                         src={'/foguete.png'}
                         alt="image"

@@ -52,31 +52,31 @@ export const stacks = [
 export function Skills() {
     return (
         <section
-            className="flex flex-col min-h-screen w-full bg-cover max-w-[1080px] mx-auto  gap-4 md:gap-10"
+            className="flex flex-col w-full bg-cover max-w-[1080px] mx-auto  gap-4 md:gap-10"
         >
-            <h2 className="text-3xl text-white font-semibold ">
+            <h2 className="text-white text-4xl font-headline font-black uppercase ">
                 Skills
             </h2>
             <Accordion orientation="vertical" type="multiple" className="w-full">
                 {stacks.map((stack, index) => (
                     <div
                         key={index}
-                        className="relative  overflow-hidden first:rounded-t-2xl last:rounded-b-2xl pb-8"
+                        className="relative overflow-hidden first:rounded-t-2xl last:rounded-b-2xl"
                     >
                         <div
-                            className="z-0  h-full absolute top-0 left-0 right-0 bottom-0 bg-cover bg-center bg-no-repeat "
+                            className="z-0 h-full absolute top-0 left-0 right-0 bottom-0 bg-cover bg-center bg-no-repeat "
                             style={{ backgroundImage: `url(${stack.backgroundUrl})` }}
                         />
 
                         <AccordionItem
                             key={index}
-                            className="relative px-4 z-10 w-full"
+                            className="relative z-10 w-full"
                             value={`item-${index}`}
                         >
                             <AccordionTrigger
                                 style={{ textShadow: "2px 2px 10px rgba(0, 0, 0, 0.9)" }}
                                 type="button"
-                                className="min-w-[300px] w-full cursor-pointer hover:text-acao hover:no-underline text-white text-3xl font-semibold flex items-center"
+                                className="group px-2 min-w-[300px] w-full cursor-pointer hover:text-acao hover:no-underline text-white text-3xl font-semibold flex items-center"
                             >
                                 {stack.area}
                             </AccordionTrigger>

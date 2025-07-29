@@ -11,12 +11,12 @@ export const StarBackground = () => {
     }, []);
 
     return (
-        <Particles
+        <Particles className=" "
             id="tsparticles"
             init={particlesInit}
             options={{
-                fullScreen: { enable: true, zIndex: 1 },
-                background: { color: "transparent" },
+                fullScreen: { enable: true, zIndex: -10 },
+                background: { color: "black" },
                 particles: {
                     number: { value: 120, density: { enable: true, area: 800 } },
                     color: { value: "#ffffff" },
