@@ -37,7 +37,7 @@ export const Projects = () => {
 
 
     return (
-        <section className="flex flex-col h-full px-4 gap-10 justify-center mx-auto max-w-[1080px] ">
+        <section className="flex flex-col h-screen w-screen overflow-hidden px-4 gap-10 justify-center mx-auto max-w-[1080px] ">
             <h1 className="text-4xl lg:text-6xl text-white uppercase font-black text-center drop-shadow-[0_0_10px_#00BCD4]" >Projects</h1>
             <div>
                 <ul className="grid md:grid-cols-2 gap-4">
@@ -62,3 +62,4 @@ export const Projects = () => {
     );
 };
 
+export default Projects

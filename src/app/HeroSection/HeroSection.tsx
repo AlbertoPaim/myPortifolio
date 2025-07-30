@@ -13,14 +13,14 @@ import { motion } from "framer-motion";
 export function HeroSection() {
     return (
 
-        <section id="HeroSection" className=" h-full w-ful bg-cover max-w-[1080px] px-4 mx-auto justify-center items-center">
+        <section id="hero" className=" h-screen bg-cover max-w-[1080px] px-4 mx-auto justify-center flex items-center">
 
-            <div className="flex flex-col md:flex-row gap-20 justify-center items-center mx-auto pt-20">
+            <div className="flex flex-col lg:flex-row gap-20 justify-center items-center mx-auto pt-20">
 
                 <div className="text-white flex-1 gap-4 flex flex-col text-2xl">
 
-                    <span className=" uppercase flex gap-4 bg-gradient-to-bl from-destaquePrincipal to-acao text-transparent bg-clip-text font-extrabold bg-line text-shadow-2xs text-4xl md:text-5xl lg:text-6xl">
-                        <h1 className="text-white text-4xl md:text-5xl lg:text-6xl">I'm</h1>
+                    <span className="mx-auto lg:mx-0 uppercase flex gap-4 bg-gradient-to-bl from-destaquePrincipal to-acao text-transparent bg-clip-text font-extrabold bg-line text-shadow-2xs text-4xl md:text-5xl lg:text-6xl">
+                        <h1 className="text-center text-white text-4xl md:text-5xl lg:text-6xl">I'm</h1>
                         <TypeAnimation
                             sequence={[
                                 "Alberto Paim",
@@ -34,7 +34,7 @@ export function HeroSection() {
                         />
                     </span>
 
-                    <p className="text-xl">
+                    <p className="text-center lg:text-start text-2xl font-texto">
 
                         I'm a Backend Developer focused on building secure and scalable APIs with Java and Spring Boot. I also develop Web3 apps and smart contracts using Solidity.
                     </p>
@@ -42,6 +42,7 @@ export function HeroSection() {
                     <div className="flex gap-4">
                         <ButtonPrincipal
                             content="Download CV"
+
                         />
                         <ButtonSecundario
                             content="Hire"
@@ -60,7 +61,7 @@ export function HeroSection() {
                     }}
                 >
                     <Image
-                        className="rotate-10 z-0 w-60 md:w-40 lg:w-60"
+                        className="rotate-10 z-0 w-60 lg:w-60"
                         width={200}
                         height={0}
                         src={'/foguete.png'}

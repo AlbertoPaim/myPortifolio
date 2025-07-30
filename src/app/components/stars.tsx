@@ -20,7 +20,7 @@ export const StarBackground = () => {
                 particles: {
                     number: { value: 120, density: { enable: true, area: 800 } },
                     color: { value: "#ffffff" },
-                    shape: { type: "circle" },
+                    shape: { type: "star" },
                     opacity: {
                         value: 0.7,
                         random: true,
@@ -32,7 +32,7 @@ export const StarBackground = () => {
                     move: {
                         enable: true,
                         speed: 3.5,
-                        direction: "bottom",
+                        direction: "right",
                         straight: true,
                         outModes: { default: "out" },
                     },

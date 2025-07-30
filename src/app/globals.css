@@ -8,7 +8,7 @@
   --color-acao: #00BCD4;
   --color-detalhes: #ECEFF1;
   --font-texto: "geistSans";
-  --font-headline: "exo_2"
+  --font-headline: "oswald"
 }
 
 @theme inline {
@@ -124,6 +124,7 @@
   }
 
   body {
-    @apply bg-gradient-to-b from-black via-background to-destaquePrincipal text-foreground;
+
+    @apply bg-gradient-to-b from-black to-background text-foreground;
   }
 }

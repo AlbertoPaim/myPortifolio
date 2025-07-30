@@ -6,7 +6,7 @@ import {
     AccordionTrigger,
 } from "@/components/ui/accordion"
 
-import { SkillCard } from "../components/skillCard";
+import { SkillCard } from "./skillCard";
 import Image from "next/image";
 
 

@@ -1,21 +1,22 @@
 "use cliet"
-
 import { HeroSection } from "./HeroSection/HeroSection";
+import About from "./about/page";
 import { Nav } from "./components/Nav";
-import { About } from "./AboutMe/About";
 import { StarBackground } from "./components/stars";
-import { Projects } from "./projects/Projects";
+import Contacts from "./contact/page";
+import Projects from "./projects/page";
+
 
 export default function Home() {
   return (
-    <div className="font-headline relative overflow-hidden  flex flex-col min-h-screen">
+    <div className="relative flex flex-col items-center mx-auto overflow-hidden">
 
       <StarBackground />
-
       <Nav />
       <HeroSection />
       <About />
       <Projects />
+      <Contacts />
     </div>
   );
 }
