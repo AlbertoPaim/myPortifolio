@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 
 const Contacts = () => {
     return (
-        <footer className="mt-16 py-8 gap-4 flex flex-col mx-auto border-t border-zinc-500 w-screen items-center">
+        <footer id="contacts" className="mt-16 py-8 gap-4 flex flex-col mx-auto  w-screen items-center">
             <div className="flex gap-4 md:gap-16 justify-center ">
                 <Link href="https://github.com/AlbertoPaim" target="_blank" className="flex flex-col items-center gap-2 transition-all hover:scale-110 group duration-500">
                     <FaGithub className="text-white text-4xl transition duration-500  group-hover:text-acao " />

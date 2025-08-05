@@ -32,7 +32,7 @@ export const StarBackground = () => {
                     move: {
                         enable: true,
                         speed: 3.5,
-                        direction: "right",
+                        direction: "bottom",
                         straight: true,
                         outModes: { default: "out" },
                     },

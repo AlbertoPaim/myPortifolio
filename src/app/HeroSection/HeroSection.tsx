@@ -2,8 +2,8 @@
 /* eslint-disable react/no-unescaped-entities */
 
 import Image from "next/image";
-import { ButtonPrincipal } from "../components/ButtonPrincipal";
-import { ButtonSecundario } from "../components/ButtonSecundario";
+import { ButtonPrincipal } from "../../components/ButtonPrincipal";
+import { ButtonSecundario } from "../../components/ButtonSecundario";
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from "framer-motion";
 
