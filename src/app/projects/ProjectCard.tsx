@@ -40,8 +40,8 @@ export const ProjecCard = ({ name, description, image, webLink, codeLink }: Proj
                         <MdCode />
                     </Link>
                 </div>
-                <h3 className="text-xl px-2 pt-2 group-hover:text-acao">{name}</h3>
-                <p className="text-zinc-400 px-2 pb-2 group-hover:text-white">{description}</p>
+                <h3 className="text-center md:text-start  text-xl px-2 pt-2 group-hover:text-acao">{name}</h3>
+                <p className="text-center md:text-start  text-zinc-400 px-2 pb-2 group-hover:text-white">{description}</p>
             </div>
 
 

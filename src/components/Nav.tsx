@@ -11,7 +11,7 @@ export function Nav() {
     return (
 
 
-        <nav className="h-16 w-full fixed z-20 max-w-[1080px] px-4 bg-black">
+        <nav className="h-16 w-full fixed z-20  px-4 bg-black">
 
             <div className="cursor-pointer  flex px-4 justify-end items-center bg-black">
                 {!open && (<MdMenu onClick={() => setOpen(!open)} className="hover:text-acao transition-colors text-white text-5xl md:hidden justify-end flex" />)}
@@ -19,7 +19,7 @@ export function Nav() {
 
             </div>
 
-            <ul className="h-16 gap-10  mx-auto text-white font-semibold text-xl hidden md:flex flex-row items-center z-10 justify-between  ">
+            <ul className="max-w-[1080px] h-16 gap-10  mx-auto text-white font-semibold text-xl hidden md:flex flex-row items-center z-10 justify-between  ">
                 <div>
                     <Link href={'#hero'}><li className="hover:text-acao transition text-acao">Alberto Paim</li></Link>
                 </div>

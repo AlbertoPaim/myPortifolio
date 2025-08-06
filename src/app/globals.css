@@ -126,5 +126,10 @@
   body {
 
     @apply bg-gradient-to-b from-black to-background text-foreground;
+
+  }
+
+  html {
+    scroll-behavior: smooth;
   }
 }

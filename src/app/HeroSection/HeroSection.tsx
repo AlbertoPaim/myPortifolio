@@ -6,6 +6,7 @@ import { ButtonPrincipal } from "../../components/ButtonPrincipal";
 import { ButtonSecundario } from "../../components/ButtonSecundario";
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 
 
@@ -40,13 +41,18 @@ export function HeroSection() {
                     </p>
 
                     <div className="flex gap-4">
-                        <ButtonPrincipal
-                            content="Download CV"
+                        <Link href="/cv.pdf" download className="w-full">
+                            <ButtonPrincipal
+                                content="Download CV"
+                            />
+                        </Link>
 
-                        />
-                        <ButtonSecundario
-                            content="Hire"
-                        />
+                        <Link className="w-full" target="_blank" href="https://wa.me/5571981154490?text=Olá, vi seu portifólio e gostaria de te contratar para um serviço.">
+                            <ButtonSecundario
+                                content="Hire"
+                            />
+                        </Link>
+
                     </div>
 
 
