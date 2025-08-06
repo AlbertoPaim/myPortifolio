@@ -24,16 +24,17 @@ export const ProjecCard = ({ name, description, image, webLink, codeLink }: Proj
                     alt="project image"
                 />
 
-                <div className="absolute inset-0 flex items-center justify-center gap-4 text-3xl text-zinc-400 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div className="absolute inset-0 flex items-center justify-center gap-4 text-3xl text-zinc-400 md:opacity-0 opacity-100 md:group-hover:opacity-100 transition-opacity duration-300">
                     <Link
-                        className="border border-white rounded-full p-2 hover:text-white"
+                        className="border border-white rounded-full p-2 hover:text-white "
                         href={webLink}
                         target="_blank"
                     >
                         <MdLink />
                     </Link>
+
                     <Link
-                        className="border border-white rounded-full p-2 hover:text-white"
+                        className="border p-2 border-white rounded-full  hover:text-white"
                         href={codeLink}
                         target="_blank"
                     >
