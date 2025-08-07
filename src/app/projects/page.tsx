@@ -5,31 +5,31 @@ export const Projects = () => {
     const projects = [
         {
             name: "Portfolio",
-            description: "Portifolio feito com Next.js, typescript e TailwindCss",
-            image: "/space.jpg",
+            description: "Portifolio feito com Next.js, TailwindCss e Typescript",
+            image: "/project1.png",
             webLink: "/",
             codeLink: "/"
         },
         {
-            name: "Portfolio",
-            description: "Portifolio feito com Next.js, typescript e TailwindCss",
-            image: "/space.jpg",
-            webLink: "/",
-            codeLink: "/"
+            name: "Lista de Mercado - Api",
+            description: "A Lista de Mercado é uma API RESTful para gerenciar compras e itens de compras, com operações para criar, ler, atualizar e excluir tanto compras quanto itens. Feito usando Java, Spring Boot e PostgresSQL",
+            image: "/project2.png",
+            webLink: "https://github.com/AlbertoPaim/Lista-de-mercado",
+            codeLink: "https://github.com/AlbertoPaim/Lista-de-mercado"
+        },
+        {
+            name: "Ciclos",
+            description: "Site para mulheres gerenciarem seus ciclos mentruais com calculadora da próxima menstruação, feito com Html, Css e javascript",
+            image: "/project3.png",
+            webLink: "https://albertopaim.github.io/Ciclos/",
+            codeLink: "https://github.com/AlbertoPaim/Ciclos"
         },
         {
             name: "Portfolio",
-            description: "Portifolio feito com Next.js, typescript e TailwindCss",
-            image: "/space.jpg",
-            webLink: "/",
-            codeLink: "/"
-        },
-        {
-            name: "Portfolio",
-            description: "Portifolio feito com Next.js, typescript e TailwindCss",
-            image: "/space.jpg",
-            webLink: "/",
-            codeLink: "/"
+            description: "Este projeto implementa um contrato inteligente de eleição descentralizada utilizando Solidity. Permite que um administrador cadastre candidatos, inicie e encerre a votação, e que usuários votem de forma segura (somente uma vez). Feito usando Solidity e Hardhat",
+            image: "/project4.png",
+            webLink: "https://github.com/AlbertoPaim/Election-System",
+            codeLink: "https://github.com/AlbertoPaim/Election-System"
         }
     ]
 

@@ -14,13 +14,13 @@ export const ProjecCard = ({ name, description, image, webLink, codeLink }: Proj
     return (
         <div className="text-white">
 
-            <div className="relative rounded-t-xl group min-w-full">
+            <div className="relative rounded-t-xl group ">
 
                 <Image
-                    className="rounded-t-2xl mx-auto w-full opacity-70 transition-opacity duration-300 group-hover:opacity-100"
+                    className="rounded-t-2xl mx-auto min-w-full min-h-96 opacity-40 transition-opacity duration-300 group-hover:opacity-70"
                     src={image}
-                    width={600}
-                    height={600}
+                    width={1000}
+                    height={400}
                     alt="project image"
                 />
 

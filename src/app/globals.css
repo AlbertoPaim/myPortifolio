@@ -125,7 +125,7 @@
 
   body {
 
-    @apply bg-gradient-to-b from-black to-background text-foreground;
+    @apply bg-gradient-to-b from-black to-black text-foreground;
 
   }
 

@@ -23,18 +23,7 @@ export default function Home() {
 
   return (
     <div className="flex flex-col items-center mx-auto overflow-hidden relative min-h-screen">
-      <motion.div
-        animate={{ rotate: [0, 360] }}
-        transition={{ duration: 120, repeat: Infinity, ease: "linear" }}
-        className="absolute top-0 right-0 -z-10 translate-x-50 -translate-y-10"
-      >
-        <Image
-          src="/jup.png"
-          alt="planet"
-          width={800}
-          height={800}
-        />
-      </motion.div>
+
 
       {showMeteor && (
         <motion.div

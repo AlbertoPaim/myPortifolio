@@ -8,18 +8,12 @@ import { motion } from "framer-motion";
 
 const Contacts = () => {
     return (
-        <footer id="contacts" className="bg-[url(/terra.jpg)] bg-cover  mt-16 py-8 gap-4 flex flex-col justify-center mx-auto  w-screen items-center">
-            <div className="flex flex-col md:flex-row items-center gap-20">
-                <motion.div
-                    animate={{ y: [0, -20, 0] }}
-                    transition={{
-                        duration: 2,
-                        repeat: Infinity,
-                        repeatType: "loop",
-                        ease: "easeInOut",
-                    }}>
-                    <Image src="/sat.png" width={300} height={200} alt="Imagem satélite" />
-                </motion.div>
+        <footer id="contacts" className=" mt-16 py-8 gap-4 flex flex-col justify-center mx-auto  w-screen items-center">
+
+
+
+            <div className="mb-100 flex flex-col md:flex-row items-center gap-8">
+
 
                 <div className="flex md:flex-col gap-10 ">
                     <Link href="https://github.com/AlbertoPaim" target="_blank" className="flex flex-col items-center gap-2 transition-all hover:scale-110 group duration-500">
@@ -42,10 +36,33 @@ const Contacts = () => {
                         <p className="text-white text-xl group-hover:text-acao">Whatsapp</p>
                     </Link>
                 </div>
+                <motion.div
+                    animate={{ y: [0, -20, 0] }}
+                    transition={{
+                        duration: 2,
+                        repeat: Infinity,
+                        repeatType: "loop",
+                        ease: "easeInOut",
+                    }}>
+                    <Image src="/sat.png" width={200} height={200} alt="Imagem satélite" />
+                </motion.div>
             </div>
 
+            <motion.div
+                animate={{ rotate: [0, 360] }}
+                transition={{ duration: 200, repeat: Infinity, ease: "linear" }}
+                className="opacity-90 absolute -z-10 -bottom-150 w-[1080px] md:w-[1300px] md:-bottom-200 "
+            >
+                <Image src="/terra.jpg"
+                    width={2000}
+                    height={2000}
+                    alt="terra"
+                >
+                </Image>
+            </motion.div>
+            <span className="text-white text-2xl mt-4 text-shadow:2px_2px_4px_#000 font-black"> Made by <span className="font-black text-2xl  bg-gradient-to-bl from-destaquePrincipal to-acao text-transparent bg-clip-text">Alberto Paim</span></span>
 
-            <span className="text-white text-2xl mt-4"> Made by <span className="text-2xl font-bold bg-gradient-to-bl from-destaquePrincipal to-acao text-transparent bg-clip-text">Alberto Paim</span></span>
+
         </footer >
     );
 };
