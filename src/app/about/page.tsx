@@ -9,7 +9,7 @@ const About = () => {
             <div className="flex-1  flex-col gap-10 flex">
                 <h2 className="text-4xl font-headline font-black uppercase text-acao text-center md:text-start">About me</h2>
                 <p className="text-white text-2xl text-center md:text-justify">
-                    I'm a Backend Developer focused on building secure and scalable APIs using Java and Spring Boot.
+                    I'm a FullStack Developer focused on building secure and scalable APIs using Java and Spring Boot.
                     I also explore the Web3 ecosystem by creating decentralized applications and smart contracts with Solidity.
                     With fluent English (B2), I communicate easily with international teams.
                     I value clear communication, teamwork, and problem-solving to deliver solid and efficient solutions.

@@ -37,7 +37,7 @@ export function HeroSection() {
 
                     <p className="text-center lg:text-start text-2xl font-texto">
 
-                        I'm a Backend Developer focused on building secure and scalable APIs with Java and Spring Boot. I also develop Web3 apps and smart contracts using Solidity.
+                        I'm a FullStack Developer focused on building secure and scalable APIs with Java and Spring Boot. I also develop Web3 apps and smart contracts using Solidity.
                     </p>
 
                     <div className="flex gap-4">
