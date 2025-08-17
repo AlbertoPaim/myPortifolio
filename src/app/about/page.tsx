@@ -9,13 +9,10 @@ const About = () => {
             <div className="flex-1  flex-col gap-10 flex">
                 <h2 className="text-4xl font-headline font-black uppercase text-acao text-center md:text-start">About me</h2>
                 <p className="text-white text-2xl text-center md:text-justify">
-                    I'm a FullStack Developer focused on building secure and scalable APIs using Java and Spring Boot.
-                    I also explore the Web3 ecosystem by creating decentralized applications and smart contracts with Solidity.
-                    With fluent English (B2), I communicate easily with international teams.
-                    I value clear communication, teamwork, and problem-solving to deliver solid and efficient solutions.
+                    Sou um Desenvolvedor Full Stack focado em construir APIs seguras e escaláveis utilizando Java e Spring Boot. Também exploro o ecossistema Web3, criando aplicações descentralizadas e contratos inteligentes com Solidity. Com inglês fluente (B2), me comunico com facilidade com equipes internacionais. Valorizo a comunicação clara, o trabalho em equipe e a resolução de problemas para entregar soluções sólidas e eficientes.
                 </p>
             </div>
-            <div className="flex-1 md:mt-0 mt-4 flex justify-center mx-auto ">
+            <div className="flex-1 md:mt-0 mt-4 flex justify-center">
 
                 <Skills />
 

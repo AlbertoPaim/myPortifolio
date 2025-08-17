@@ -46,13 +46,13 @@ export const stacks = [
 
 export function Skills() {
     return (
-        <div className="flex flex-col gap-10 w-full">
+        <div className="container gap-10 max-h-full">
             <h2 className="text-acao text-4xl font-headline font-black uppercase text-center md:text-start">
                 Skills
             </h2>
 
-            <Tabs defaultValue="Backend" className="w-full max-w-6xl mx-auto gap-4">
-                <TabsList className=" bg-transparent flex justify-center md:justify-start flex-wrap gap-2">
+            <Tabs defaultValue="Backend" className=" mx-auto gap-4 mt-10">
+                <TabsList className=" bg-transparent flex justify-center md:justify-center mx-auto lg:mx-0 flex-wrap gap-2">
                     {stacks.map((item, index) => (
                         <TabsTrigger
                             key={index}
