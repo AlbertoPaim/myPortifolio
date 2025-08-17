@@ -1,63 +1,61 @@
-import { ProjecCard } from "./ProjectCard";
+import { ProjectCard } from "./ProjectCard";
 
 export const Projects = () => {
 
     const projects = [
         {
             name: "Smart Election",
-            description: "Este projeto implementa um contrato inteligente de eleição descentralizada utilizando Solidity. Permite que um administrador cadastre candidatos, inicie e encerre a votação, e que usuários votem de forma segura (somente uma vez). Feito usando Solidity e Hardhat",
+            description: "Um contrato inteligente de eleição descentralizada. Permite que um administrador gerencie a votação e que usuários votem de forma segura (somente uma vez).",
             image: "/project4.png",
-            webLink: "https://github.com/AlbertoPaim/Election-System"
+            repoUrl: "https://github.com/AlbertoPaim/Election-System",
+            technologies: ["Solidity", "Hardhat", "Blockchain"]
         },
-
         {
-            name: "Lista de Mercado - Api",
-            description: "A Lista de Mercado é uma API RESTful para gerenciar compras e itens de compras, com operações para criar, ler, atualizar e excluir tanto compras quanto itens. Feito usando Java, Spring Boot e PostgresSQL",
+            name: "Lista de Mercado - API",
+            description: "API RESTful para gerenciar compras e seus itens, com operações de CRUD completo tanto para compras quanto para os itens.",
             image: "/project2.png",
-            webLink: "https://github.com/AlbertoPaim/Lista-de-mercado"
+            repoUrl: "https://github.com/AlbertoPaim/Lista-de-mercado",
+            technologies: ["Java", "Spring Boot", "PostgreSQL", "REST API"]
         },
         {
             name: "Ciclos",
-            description: "Site para mulheres gerenciarem seus ciclos mentruais com calculadora da próxima menstruação, feito com Html, Css e javascript",
+            description: "Site para mulheres gerenciarem seus ciclos menstruais com uma calculadora para prever a próxima menstruação.",
             image: "/project3.png",
-            webLink: "https://albertopaim.github.io/Ciclos/",
+            repoUrl: "https://albertopaim.github.io/Ciclos/",
+            technologies: ["HTML", "CSS", "JavaScript"]
         },
         {
-
-            name: "Portfolio",
-            description: "Portifolio feito com Next.js, TailwindCss e Typescript",
+            name: "Portfólio Pessoal",
+            description: "Meu portfólio pessoal para exibir projetos e habilidades, construído com foco em design moderno e responsividade.",
             image: "/project1.png",
-            webLink: "/"
+            repoUrl: "https://github.com/AlbertoPaim/Portfolio",
+            liveUrl: "/",
+            technologies: ["Next.js", "TypeScript", "TailwindCSS"]
         },
-
-    ]
-
-
-
+    ];
 
     return (
-        <section id="projects" className="flex flex-col pt-18  overflow-hidden px-4 gap-10 justify-center mx-auto max-w-[1080px] ">
-            <h1 className="text-4xl lg:text-6xl text-white uppercase font-black text-center drop-shadow-[0_0_3px_#fff]" >Projects</h1>
-            <div>
-                <ul className="grid md:grid-cols-2 md:gap-10 lg:gap-20 px-4">
-                    {projects.map((item, index) => (
-                        <li
-                            className="rounded-t-2xl bg-black"
-                            key={index}>
-                            <ProjecCard
-                                name={item.name}
-                                description={item.description}
-                                image={item.image}
-                                webLink={item.webLink}
-                            />
-                        </li>
-                    ))}
+        <section id="projects" className="container mx-auto max-w-5xl px-4 py-12 md:py-24">
+            <h2 className="text-4xl lg:text-5xl font-black text-center text-white drop-shadow-[0_0_3px_#fff] mb-12">
+                PROJETOS
+            </h2>
 
-                </ul>
+            <ul className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
+                {projects.map((project) => (
 
-            </div>
+                    <li key={project.name} className="min-h-[400px]">
+                        <ProjectCard
+                            name={project.name}
+                            description={project.description}
+                            image={project.image}
+                            repoUrl={project.repoUrl}
+                            technologies={project.technologies}
+                        />
+                    </li>
+                ))}
+            </ul>
         </section>
     );
 };
 
-export default Projects
+export default Projects;
