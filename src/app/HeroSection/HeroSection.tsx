@@ -14,14 +14,14 @@ import Link from "next/link";
 export function HeroSection() {
     return (
 
-        <section id="hero" className=" h-screen bg-cover max-w-[1080px] px-4 mx-auto justify-center flex items-center">
+        <section id="hero" className=" bg-cover max-w-[1080px] px-4 mx-auto justify-center flex items-center">
 
-            <div className="flex flex-col lg:flex-row gap-20 justify-center items-center mx-auto pt-20">
+            <div className="flex flex-col lg:flex-row gap-20 justify-center items-center mx-auto pt-50">
 
-                <div className="text-white flex-1 gap-4 flex flex-col text-2xl">
+                <div className="text-white flex-1 gap-4 flex flex-col">
 
-                    <span className="mx-auto lg:mx-0 uppercase flex gap-4 bg-gradient-to-bl from-destaquePrincipal to-acao text-transparent bg-clip-text font-extrabold bg-line text-shadow-2xs text-4xl md:text-5xl lg:text-6xl">
-                        <h1 className="text-center text-white text-4xl md:text-5xl lg:text-6xl">I'm</h1>
+                    <span className="mx-auto lg:mx-0 uppercase flex gap-4 bg-gradient-to-bl from-destaquePrincipal to-acao text-transparent bg-clip-text font-extrabold bg-line text-shadow-2xs text-2xl md:text-5xl lg:text-6xl">
+                        <span className="text-center text-white text-2xl md:text-5xl lg:text-6xl">I'm</span>
                         <TypeAnimation
                             sequence={[
                                 "Alberto Paim",
@@ -35,10 +35,9 @@ export function HeroSection() {
                         />
                     </span>
 
-                    <p className="text-center lg:text-start text-2xl font-texto">
+                    <p className="text-center lg:text-start text-xl md:text-2xl font-texto">
 
-                        I'm a FullStack Developer focused on building secure and scalable APIs with Java and Spring Boot. I also develop Web3 apps and smart contracts using Solidity.
-                    </p>
+                        Sou um Desenvolvedor Full Stack focado na construção de APIs seguras e escaláveis com Java e Spring Boot. Também desenvolvo aplicações Web3 e contratos inteligentes utilizando Solidity.                    </p>
 
                     <div className="flex gap-4">
                         <Link href="/cv.pdf" download className="w-full">

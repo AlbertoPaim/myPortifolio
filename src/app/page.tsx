@@ -9,6 +9,7 @@ import Projects from "./projects/page";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
+import { NavMob } from "@/components/navMobile";
 
 export default function Home() {
   const [showMeteor, setShowMeteor] = useState(false);
@@ -40,6 +41,7 @@ export default function Home() {
       <StarBackground />
 
       <Nav />
+      <NavMob />
       <HeroSection />
       <About />
       <Projects />
