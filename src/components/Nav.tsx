@@ -9,9 +9,9 @@ export function Nav() {
                     <Link href={'#hero'}><li className="hover:text-acao transition text-acao">Alberto Paim</li></Link>
                 </div>
                 <div className="flex gap-10">
-                    <Link href={'#about'}><li className=" text-white hover:text-acao transition">About Me</li></Link>
-                    <Link href={'#projects'}><li className=" text-white hover:text-acao transition">Projects</li></Link>
-                    <Link href={'#contacts'}><li className=" text-white hover:text-acao transition">Contacts</li></Link>
+                    <Link href={'#about'}><li className=" text-white hover:text-acao transition">Sobre</li></Link>
+                    <Link href={'#projects'}><li className=" text-white hover:text-acao transition">Projetos</li></Link>
+                    <Link href={'#contacts'}><li className=" text-white hover:text-acao transition">Contatos</li></Link>
                 </div>
             </ul>
         </nav>

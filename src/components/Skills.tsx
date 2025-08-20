@@ -48,7 +48,7 @@ export function Skills() {
     return (
         <div className="container gap-10 max-h-full">
             <h2 className="text-acao text-4xl font-headline font-black uppercase text-center md:text-start">
-                Skills
+                Habilidades
             </h2>
 
             <Tabs defaultValue="Backend" className=" mx-auto gap-4 mt-10">

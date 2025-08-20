@@ -48,7 +48,7 @@ export function HeroSection() {
 
                         <Link className="w-full" target="_blank" href="https://wa.me/5571981154490?text=Olá, vi seu portifólio e gostaria de te contratar para um serviço.">
                             <ButtonSecundario
-                                content="Hire"
+                                content="Me Contrate"
                             />
                         </Link>
 
