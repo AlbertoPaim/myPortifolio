@@ -1,6 +1,6 @@
 import { ProjectCard } from "./ProjectCard";
 
-export const Projects = () => {
+const Projects = () => {
 
     const projects = [
         {
@@ -57,3 +57,5 @@ export const Projects = () => {
         </section>
     );
 };
+
+export default Projects;
