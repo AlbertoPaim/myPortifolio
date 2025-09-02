@@ -26,7 +26,7 @@ export function HeroSection() {
                             sequence={[
                                 "Alberto Paim",
                                 1000,
-                                "FullStack",
+                                "Web Developer",
                                 1000,
                             ]}
                             wrapper="span"
@@ -37,7 +37,9 @@ export function HeroSection() {
 
                     <p className="text-center lg:text-start text-xl md:text-2xl font-texto">
 
-                        Sou um Desenvolvedor Full Stack focado na construção de APIs seguras e escaláveis com Java e Spring Boot. Também desenvolvo aplicações Web3 e contratos inteligentes utilizando Solidity.                    </p>
+                        As a Web Developer, I specialize in building secure and scalable APIs with Java and Spring Boot. My skills also extend to the Web3 space, where I create decentralized applications and smart contracts using Solidity.
+
+                    </p>
 
                     <div className="flex gap-4">
                         <Link href="/cv.pdf" download className="w-full">
@@ -48,7 +50,7 @@ export function HeroSection() {
 
                         <Link className="w-full" target="_blank" href="https://wa.me/5571981154490?text=Olá, vi seu portifólio e gostaria de te contratar para um serviço.">
                             <ButtonSecundario
-                                content="Me Contrate"
+                                content="Hire"
                             />
                         </Link>
 

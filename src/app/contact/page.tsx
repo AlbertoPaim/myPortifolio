@@ -63,7 +63,7 @@ const Contacts = () => {
                 >
                 </Image>
             </motion.div>
-            <span style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.5)' }} className="text-white text-2xl mt-4 text-shadow:2px_2px_4px_#000 font-black"> Feito por <span style={{ textShadow: '1px 1px 10px rgba(0,0,0,0.3)' }} className="font-black text-2xl  bg-gradient-to-bl from-destaquePrincipal to-acao text-transparent bg-clip-text">Alberto Paim</span></span>
+            <span style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.5)' }} className="text-white text-2xl mt-4 text-shadow:2px_2px_4px_#000 font-black"> Made by <span style={{ textShadow: '1px 1px 10px rgba(0,0,0,0.3)' }} className="font-black text-2xl  bg-gradient-to-bl from-destaquePrincipal to-acao text-transparent bg-clip-text">Alberto Paim</span></span>
 
 
         </footer >
