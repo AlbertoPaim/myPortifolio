@@ -14,6 +14,7 @@ export const stacks = [
         tecnologias: [
             { name: "Java", icon: "/java.png" },
             { name: "Spring Boot", icon: "/spring.png" },
+            { name: "Spring Security", icon: "/security.png" },
             { name: "Node.js", icon: "/node.png" },
             { name: "Next.js", icon: "/next.png" },
             { name: "TailwindCSS", icon: "/tailwind.png" },
