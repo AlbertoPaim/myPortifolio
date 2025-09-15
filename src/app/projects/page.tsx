@@ -20,7 +20,7 @@ const Projects = () => {
 
         {
             name: "Smart-Auction",
-            description: "I implemented a decentralized voting system via a smart contract in Solidity, using Hardhat for the development and testing environment. The contract's architecture guarantees the immutability and transparency of the process, in addition to ensuring the 'one vote per voter' rule.",
+            description: "Decentralized auction system via smart contract in Solidity. The architecture ensures the immutability and transparency of the process, with development and testing environment managed by Hardhat.",
             image: "/project1.png",
             repoUrl: "https://github.com/AlbertoPaim/Smart-Auction",
             technologies: ["Solidity", "Hardhat", "Ethers", "Blockchain"]
