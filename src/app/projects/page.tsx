@@ -17,6 +17,15 @@ const Projects = () => {
             repoUrl: "https://github.com/AlbertoPaim/Lista-de-mercado",
             technologies: ["Java", "Spring Boot", "PostgreSQL", "REST API"]
         },
+
+        {
+            name: "Smart-Auction",
+            description: "I implemented a decentralized voting system via a smart contract in Solidity, using Hardhat for the development and testing environment. The contract's architecture guarantees the immutability and transparency of the process, in addition to ensuring the 'one vote per voter' rule.",
+            image: "/project1.png",
+            repoUrl: "https://github.com/AlbertoPaim/Smart-Auction",
+            technologies: ["Solidity", "Hardhat", "Ethers", "Blockchain"]
+        },
+
         {
             name: "Ciclos",
             description: "A website for women to track their menstrual cycles, featuring a built-in calculator to predict their next period.",
