@@ -10,22 +10,22 @@ const Projects = () => {
         technologies: ["Java", "Spring Boot", "Spring Security", "PostgreSQL", "REST API"]
     },
     {
-        name: "Smart-Auction",
-        description: "Decentralized auction system via smart contract in Solidity. The architecture ensures the immutability and transparency of the process, with development and testing environment managed by Hardhat.",
+        name: "Leilão inteligente",
+        description: "Sistema de leilão descentralizado via contrato inteligente em Solidity. A arquitetura garante a imutabilidade e a transparência do processo, com ambiente de desenvolvimento e testes gerenciado pelo Hardhat.",
         image: "/project1.png",
         repoUrl: "https://github.com/AlbertoPaim/Smart-Auction",
         technologies: ["Solidity", "Hardhat", "Ethers", "Blockchain"]
     },
     {
-        name: "Smart Election",
-        description: "This is a decentralized election smart contract. It provides a framework for an administrator to manage the voting process and for users to cast their votes securely and immutably (ensuring a one-vote-per-user constraint).",
+        name: "Eleição inteligente",
+        description: "Este é um contrato inteligente de eleição descentralizada. Ele fornece uma estrutura para que um administrador gerencie o processo de votação e para que os usuários possam registrar seus votos de forma segura e imutável (garantindo a restrição de um voto por usuário).",
         image: "/project4.png",
         repoUrl: "https://github.com/AlbertoPaim/Election-System",
         technologies: ["Solidity", "Hardhat", "Blockchain"]
     },
     {
-        name: "Shopping List API",
-        description: "RESTful API for managing purchases and their items, with full CRUD operations for both purchases and items.",
+        name: "Lista de mercado - API",
+        description: "API RESTful para gerenciar compras e seus itens, com operações CRUD completas tanto para compras quanto para itens.",
         image: "/project2.png",
         repoUrl: "https://github.com/AlbertoPaim/Lista-de-mercado",
         technologies: ["Java", "Spring Boot", "PostgreSQL", "REST API"]
@@ -36,7 +36,7 @@ const Projects = () => {
     return (
         <section id="projects" className="container mx-auto max-w-5xl px-4 py-12 md:py-24">
             <h2 className="text-4xl lg:text-5xl font-black text-center text-white drop-shadow-[0_0_3px_#fff] mb-12">
-                PROJECTS
+                PROJETOS
             </h2>
 
             <ul className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">

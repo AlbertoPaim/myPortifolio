@@ -37,7 +37,7 @@ export function HeroSection() {
 
                     <p className="text-center lg:text-start text-xl md:text-2xl font-texto">
 
-                        As a Web Developer, I specialize in building secure and scalable APIs with Java and Spring Boot. My skills also extend to the Web3 space, where I create decentralized applications and smart contracts using Solidity.
+                        Como Desenvolvedor Web, sou especializado na construção de APIs seguras e escaláveis com Java e Spring Boot. Minhas habilidades também se estendem ao universo da Web3, onde crio aplicações descentralizadas e contratos inteligentes usando Solidity.
 
                     </p>
 
@@ -50,7 +50,7 @@ export function HeroSection() {
 
                         <Link className="w-full" target="_blank" href="https://wa.me/5571981154490?text=Olá, vi seu portifólio e gostaria de te contratar para um serviço.">
                             <ButtonSecundario
-                                content="Hire"
+                                content="Me contrate"
                             />
                         </Link>
 

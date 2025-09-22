@@ -23,9 +23,9 @@ export function NavMob() {
                 <div className="flex justify-between items-center">
                     <Link href={'#hero'}><li className="hover:text-acao transition flex items-center gap-4"><MdHome className="text-2xl" /> Alberto Paim</li></Link>
                 </div>
-                <Link href={'#about'}><li className="hover:text-acao transition flex items-center gap-4"><MdPerson className="text-2xl" /> About</li></Link>
-                <Link href={'#projects'}><li className="hover:text-acao transition flex items-center gap-4"><MdLanguage /> projects</li></Link>
-                <Link href={'#contacts'}><li className="hover:text-acao transition flex items-center gap-4"><MdPhone /> Contacts</li></Link>
+                <Link href={'#about'}><li className="hover:text-acao transition flex items-center gap-4"><MdPerson className="text-2xl" /> Sobre</li></Link>
+                <Link href={'#projects'}><li className="hover:text-acao transition flex items-center gap-4"><MdLanguage />Projetos</li></Link>
+                <Link href={'#contacts'}><li className="hover:text-acao transition flex items-center gap-4"><MdPhone /> Contatos</li></Link>
             </ul>
 
             {open && (
