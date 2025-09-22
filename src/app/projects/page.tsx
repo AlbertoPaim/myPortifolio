@@ -2,37 +2,34 @@ import { ProjectCard } from "./ProjectCard";
 
 const Projects = () => {
 
-    const projects = [
-        {
-            name: "Smart Election",
-            description: "This is a decentralized election smart contract. It provides a framework for an administrator to manage the voting process and for users to cast their votes securely and immutably (ensuring a one-vote-per-user constraint).",
-            image: "/project4.png",
-            repoUrl: "https://github.com/AlbertoPaim/Election-System",
-            technologies: ["Solidity", "Hardhat", "Blockchain"]
-        },
-        {
-            name: "Shopping List API",
-            description: "RESTful API for managing purchases and their items, with full CRUD operations for both purchases and items.",
-            image: "/project2.png",
-            repoUrl: "https://github.com/AlbertoPaim/Lista-de-mercado",
-            technologies: ["Java", "Spring Boot", "PostgreSQL", "REST API"]
-        },
-
-        {
-            name: "Smart-Auction",
-            description: "Decentralized auction system via smart contract in Solidity. The architecture ensures the immutability and transparency of the process, with development and testing environment managed by Hardhat.",
-            image: "/project1.png",
-            repoUrl: "https://github.com/AlbertoPaim/Smart-Auction",
-            technologies: ["Solidity", "Hardhat", "Ethers", "Blockchain"]
-        },
-
-        {
-            name: "Ciclos",
-            description: "A website for women to track their menstrual cycles, featuring a built-in calculator to predict their next period.",
-            image: "/project3.png",
-            repoUrl: "https://albertopaim.github.io/Ciclos/",
-            technologies: ["HTML", "CSS", "JavaScript"]
-        }
+    const projects = [{
+        name: "Vende e Passa - Bazar",
+        description: "API RESTful para gerenciamento de um bazar online, desenvolvida em Spring Boot com autenticação via JWT e controle de permissões com Spring Security. Imagens são armazenadas em nuvem usando a Cloudinary API, otimizando o banco de dados Postgres com apenas URLs.",
+        image: "/project3.png",
+        repoUrl: "https://github.com/AlbertoPaim/bazar_java",
+        technologies: ["Java", "Spring Boot", "Spring Security", "PostgreSQL", "REST API"]
+    },
+    {
+        name: "Smart-Auction",
+        description: "Decentralized auction system via smart contract in Solidity. The architecture ensures the immutability and transparency of the process, with development and testing environment managed by Hardhat.",
+        image: "/project1.png",
+        repoUrl: "https://github.com/AlbertoPaim/Smart-Auction",
+        technologies: ["Solidity", "Hardhat", "Ethers", "Blockchain"]
+    },
+    {
+        name: "Smart Election",
+        description: "This is a decentralized election smart contract. It provides a framework for an administrator to manage the voting process and for users to cast their votes securely and immutably (ensuring a one-vote-per-user constraint).",
+        image: "/project4.png",
+        repoUrl: "https://github.com/AlbertoPaim/Election-System",
+        technologies: ["Solidity", "Hardhat", "Blockchain"]
+    },
+    {
+        name: "Shopping List API",
+        description: "RESTful API for managing purchases and their items, with full CRUD operations for both purchases and items.",
+        image: "/project2.png",
+        repoUrl: "https://github.com/AlbertoPaim/Lista-de-mercado",
+        technologies: ["Java", "Spring Boot", "PostgreSQL", "REST API"]
+    }
 
     ];
 
