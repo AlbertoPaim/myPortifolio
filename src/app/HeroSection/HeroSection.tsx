@@ -42,7 +42,7 @@ export function HeroSection() {
                     </p>
 
                     <div className="flex gap-4">
-                        <Link href="/cv.pdf" download className="w-full">
+                        <Link href="/alberto.pdf" download className="w-full">
                             <ButtonPrincipal
                                 content="Download CV"
                             />
